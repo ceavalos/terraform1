@@ -1,0 +1,20 @@
+terraform init
+terafform plan
+terraform apply
+terraform apply --auto-aprove   para autoaprovacion
+terraform destroy
+terraform validate  --> si el plan se tarda este revisara si existe error de sintanxis o similar.
+
+
+
+para guardar un plan para ejecutarlo luego
+terraform plan --out xxx.plan
+
+--- luego para ejecutar el plan
+terraform apply xxx.plan
+
+
+para configuracion de aws
+aws configure
+aws sts get-caller-identity
+
